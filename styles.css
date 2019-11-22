@@ -19,13 +19,13 @@ div.container{
     position: absolute;
     top: 40%;
     right: 0;
-    width: 30%;
+    width: 44%;
     height: 100%;
-    margin-left:20%;
+    margin-left:90%;
   }
   .absolute img{
   width:70%;
-  height:120%;
+  height:155%;
   background-color: #FFBE7BFF;
   padding: 15%;
   }
