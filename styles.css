@@ -29,3 +29,19 @@ div.container{
   background-color: #FFBE7BFF;
   padding: 15%;
   }
+  .about{
+      margin-left:10%;
+  }
+  h2{
+      font-size:70px;
+      color:black;
+  }
+  .about p{
+      font-size:30px;
+      color:rgb(95, 160, 146);
+      font-family: 'Rokkitt', serif;
+  }
+  span{
+      color:cadetblue;
+  }
+  
