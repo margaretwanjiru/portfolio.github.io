@@ -5,105 +5,105 @@ div.container{
     border-top: 3px solid #FFBE7BFF;
     padding:3%;
     background-color:cadetblue;
-  } 
-  body{
-      overflow-x:hidden;
-  }
-  h1{
-      font-size:70px;
-      color:#FFBE7BFF;
-  }
-  .maggy p{
+}
+body{
+    overflow-x:hidden;
+}
+h1{
+    font-size:70px;
+    color:#FFBE7BFF;
+}
+.maggy p{
     font-family: 'Cabin', sans-serif;
     font-family: 'Russo One', sans-serif;
     font-size:50px;
     color:white;
-  }
-  div.absolute {
+}
+div.absolute {
     position: absolute;
     top: 40%;
     right: 0;
     width: 40%;
     height: 100%;
     margin-left:90%;
-  }
-  .absolute img{
-  width:70%;
-  height:155%;
-  background-color: #FFBE7BFF;
-  padding: 15%;
-  }
-  .about{
-      margin-left:14%;
-  }
-  h2{
-      font-size:70px;
-      color:#FFBE7BFF;
-  }
-  .about p{
-      font-size:25px;
-      color:rgb(95, 160, 146);
-      font-family: 'Rokkitt', serif;
-  }
-  span{
-      color:cadetblue;
-  }
-  h3{
-      font-size:50px;
-      color:#FFBE7BFF;
-      margin-left:14%;
-  }
-  h3 :hover{
-      color:cadetblue;
-  }
-  .project{
-      margin-left:15%;
-      margin-bottom:35%;
-      justify-content: space-evenly;
-  }
-  .project :hover{
-      color:#FFBE7BFF;
-  }
-  .irungu{
-      float:left;
-      margin-top:2%;
-      width:20%;
-      text-align:center;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .middle{
-      float:left;
-      margin-top:2%;
-      margin-left:10%;
-      width:20%;
-      text-align:center;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  h4{
-      font-size:50px;
-      color:cadetblue;
-  }
-  .project p{
-      font-size:25px;
-      color:rgb(95, 160, 144)
-  }
-  .footer{
+}
+.absolute img{
+    width:70%;
+    height:155%;
+    background-color: #FFBE7BFF;
+    padding: 15%;
+}
+.about{
+    margin-left:14%;
+}
+h2{
+    font-size:70px;
+    color:#FFBE7BFF;
+}
+.about p{
+    font-size:25px;
+    color:rgb(95, 160, 146);
+    font-family: 'Rokkitt', serif;
+}
+span{
+    color:cadetblue;
+}
+h3{
+    font-size:50px;
+    color:#FFBE7BFF;
+    margin-left:14%;
+}
+h3 :hover{
+    color:cadetblue;
+}
+.project{
+    margin-left:15%;
+    margin-bottom:35%;
+    justify-content: space-evenly;
+}
+.project :hover{
+    color:#FFBE7BFF;
+}
+.irungu{
+    float:left;
+    margin-top:2%;
+    width:20%;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.middle{
+    float:left;
+    margin-top:2%;
+    margin-left:10%;
+    width:20%;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h4{
+    font-size:50px;
+    color:cadetblue;
+}
+.project p{
+    font-size:25px;
+    color:rgb(95, 160, 144) 
+}
+.footer{
     height:3%;
     background-color:cadetblue;
-    width:100%; 
-  }
-  .last{
-      margin-top:5%;
-      margin-left:21%;
-      font-size:45px;
-      color:white;
-      font-family: 'Cabin', sans-serif;
-      font-family: 'Russo One', sans-serif;
-  }
- .available{
+    width:100%;
+}
+.last{
+    margin-top:5%;
+    margin-left:21%;
+    font-size:45px;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+.available{
     color:#FFBE7BFF;
-  }
-  .fa {
+}
+.fa {
     padding: 1%;
     font-size: 900%;
     width: 3%;
@@ -111,123 +111,119 @@ div.container{
     margin-left:12%;
     flex-direction: row;
     margin-bottom:1%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  
-  .fa-instagram {
+}
+.fa-instagram {
     background: red;
     color: white;
-  }
-  
-  .fa-github{
+}
+.fa-github{
     background: black;
     color: white;
-  }
+}
 @media only screen and (max-width:600px){
-.absolute{
-      width:2%;
-      height:6%;
-      position:absolute;
-      margin-left:90%;
-      margin-top: 0;
-  }
-  .project{
-      margin-bottom: 30%;
-      display:flex;
-      flex-wrap:wrap;
-      flex-direction: column;
-      margin-left:4%;
-  }
-  .irungu{
-      width:80%;
-      margin-left:4%;
-  }
-  .middle{
-      width:80%;
-      margin-left:4%;
-  }
-  h4{
-    font-size:15px;
-    color:cadetblue;
-}
-.project p{
-    font-size:10px;
-    color:rgb(95, 160, 144);
-}
-.about{
-    margin-left:1%;
-}
-.about p{
-    font-size:2px;
-}
-.maggy p{
-    font-size:7px;
-}
-h2{
-    font-size: 28px;
-}
-h1{
-    font-size:50px;
-}
-.last{
-    font-size:25px;
-}
-.dive{
-    font-size:15px;
-}
+    .absolute{
+        width:2%;
+        height:6%;
+        position:absolute;
+        margin-left:90%;
+        margin-top: 0;
+   }
+    .project{
+        margin-bottom: 30%;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        margin-left:4%;
+   }
+    .irungu{
+        width:80%;
+        margin-left:4%;
+   }
+    .middle{
+        width:80%;
+        margin-left:4%;
+   }
+    h4{
+        font-size:15px;
+        color:cadetblue;
+   }
+    .project p{
+        font-size:10px;
+        color:rgb(95, 160, 144);
+   }
+    .about{
+        margin-left:1%;
+   }
+    .about p{
+        font-size:2px;
+   }
+    .maggy p{
+        font-size:7px;
+   }
+    h2{
+        font-size: 28px;
+   }
+    h1{
+        font-size:50px;
+   }
+    .last{
+        font-size:25px;
+   }
+    .dive{
+        font-size:15px;
+   }
 }
 @media only screen and (max-width:1200px){
-.maggy p{
-   font-size:13px;
-    }
-body{
-  overflow-x: hidden;
-  margin-left: 0;
-}
-h1{
-    width:100%;
-}
-.absolute img{
-    width:70%;
-    height:60%;
-}
-.about{
-    margin-left:11%;
-}
-.about p{
-    font-size: 20px;
-}
-.absolute{
-    margin-top:7%;
-    margin-bottom: 5%;
-    height:5%;
-}
-.project{
-    margin-bottom: 20%;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-}
-.irungu{
-    width:80%;
-    margin-left:4%;
-}
-.middle{
-    width:80%;
-    margin-left:4%;
-}
-.container{
-    margin-left:0;
-}
-body{
-    width:100%;
-}
+    .maggy p{
+        font-size:13px;
+   }
+    body{
+        overflow-x: hidden;
+        margin-left: 0;
+   }
+    h1{
+        width:100%;
+   }
+    .absolute img{
+        width:70%;
+        height:60%;
+   }
+    .about{
+        margin-left:11%;
+   }
+    .about p{
+        font-size: 12px;
+   }
+    .absolute{
+        margin-top:7%;
+        margin-bottom: 5%;
+        height:5%;
+   }
+    .project{
+        margin-bottom: 20%;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+   }
+    .irungu{
+        width:80%;
+        margin-left:4%;
+   }
+    .middle{
+        width:80%;
+        margin-left:4%;
+   }
+    .container{
+        margin-left:0;
+   }
+    body{
+        width:100%;
+   }
 }
