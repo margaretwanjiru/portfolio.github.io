@@ -6,6 +6,9 @@ div.container{
     padding:3%;
     background-color:cadetblue;
   } 
+  body{
+      overflow-x:hidden;
+  }
   h1{
       font-size:70px;
       color:#FFBE7BFF;
@@ -20,7 +23,7 @@ div.container{
     position: absolute;
     top: 40%;
     right: 0;
-    width: 44%;
+    width: 40%;
     height: 100%;
     margin-left:90%;
   }
@@ -31,7 +34,7 @@ div.container{
   padding: 15%;
   }
   .about{
-      margin-left:13%;
+      margin-left:14%;
   }
   h2{
       font-size:70px;
@@ -46,8 +49,24 @@ div.container{
       color:cadetblue;
   }
   .project{
-      margin-left:13%;
-      justify-content: space-between;
+      margin-left:15%;
+      margin-bottom:35%;
+      justify-content: space-evenly;
+  }
+  .irungu{
+      float:left;
+      margin-top:2%;
+      width:20%;
+      text-align:center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .middle{
+      float:left;
+      margin-top:2%;
+      margin-left:10%;
+      width:20%;
+      text-align:center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   h4{
       font-size:50px;
@@ -58,11 +77,20 @@ div.container{
       color:rgb(95, 160, 144)
   }
   .footer{
-    padding:3%;
+    height:3%;
     background-color:cadetblue;
-    width:94%; 
+    width:100%; 
   }
-  .footer p{
+ .dive{
+      font-size:40px;
+      margin-left:15%;
+
+  }
+  .dive :hover{
+      color:#FFBE7BFF;
+  }
+  .ww{
+      margin-top:5%;
       margin-left:12%;
       font-size:45px;
       color:white;
@@ -72,4 +100,61 @@ div.container{
  .available{
     color:#FFBE7BFF;
   }
-  
+@media only screen and (max-width:600px){
+  div .absolute{
+      width:35%;
+      height:40%;
+      position:absolute;
+  }
+  .container{
+      display:flex;
+      flex-wrap:wrap;
+  }
+  body{
+      overflow-x: hidden;
+  }
+  .project{
+      margin-bottom: 25%;
+      display:flex;
+      flex-wrap:wrap;
+      flex-direction: column;
+      margin-left:4%;
+  }
+  .irungu{
+      width:80%;
+      margin-left:4%;
+  }
+  .middle{
+      width:80%;
+      margin-left:4%;
+  }
+  h4{
+    font-size:15px;
+    color:cadetblue;
+}
+.project p{
+    font-size:10px;
+    color:rgb(95, 160, 144);
+}
+.about{
+    margin-left:4%;
+}
+.about p{
+    font-size:15px;
+}
+.maggy p{
+    font-size:15px;
+}
+h2{
+    font-size: 28px;
+}
+h1{
+    font-size:50px;
+}
+.ww{
+    font-size:25px;
+}
+.dive{
+    font-size:15px;
+}
+}
