@@ -11,6 +11,6 @@ This project is built with only:
 * css
 ##### To access this website click the link below
 * https://github.com/margaretwanjiru/portfolio.github.io
-* Then click the link that appears after the description.
+* Then click the link that appears after the short description above.
 
 ###### Copyright (c) 2019 Margaret Irungu
