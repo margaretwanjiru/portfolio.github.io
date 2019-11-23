@@ -132,18 +132,12 @@ div.container{
     color: white;
   }
 @media only screen and (max-width:600px){
-  div .absolute{
-      width:35%;
-      height:40%;
+.absolute{
+      width:2%;
+      height:6%;
       position:absolute;
-  }
-
-  .container{
-      display:flex;
-      flex-wrap:wrap;
-  }
-  body{
-      overflow-x: hidden;
+      margin-left:90%;
+      margin-top: 0;
   }
   .project{
       margin-bottom: 30%;
@@ -169,13 +163,13 @@ div.container{
     color:rgb(95, 160, 144);
 }
 .about{
-    margin-left:4%;
+    margin-left:1%;
 }
 .about p{
-    font-size:15px;
+    font-size:2px;
 }
 .maggy p{
-    font-size:15px;
+    font-size:7px;
 }
 h2{
     font-size: 28px;
@@ -190,15 +184,31 @@ h1{
     font-size:15px;
 }
 }
-@media only screen and (max-width:1300px){
-    .maggy p{
-   font-size:31px;
+@media only screen and (max-width:1200px){
+.maggy p{
+   font-size:13px;
     }
+body{
+  overflow-x: hidden;
+  margin-left: 0;
+}
+h1{
+    width:100%;
+}
+.absolute img{
+    width:70%;
+    height:60%;
+}
 .about{
-    margin-left:9%;
+    margin-left:11%;
 }
 .about p{
-    font-size: 16px;
+    font-size: 20px;
+}
+.absolute{
+    margin-top:7%;
+    margin-bottom: 5%;
+    height:5%;
 }
 .project{
     margin-bottom: 20%;
@@ -214,8 +224,10 @@ h1{
     width:80%;
     margin-left:4%;
 }
-.absolute{
-    height:60%;
-    margin-top:20%;
+.container{
+    margin-left:0;
+}
+body{
+    width:100%;
 }
 }
