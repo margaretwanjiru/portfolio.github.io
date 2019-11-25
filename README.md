@@ -12,4 +12,5 @@ This project is built with only:
 ##### To access this website click the link below
 * https://margaretwanjiru.github.io/portfolio.github.io/
 
+- Licensed under the  [MIT license](LICENSE).
 ###### Copyright (c) 2019 Margaret Irungu
